@@ -67,7 +67,7 @@ h1 {
 }
 
 .link-button:hover {
-    color : rgb(160, 160, 160);
+    color : rgb(189, 189, 189);
 }
 
 .text-justify-high {
@@ -95,6 +95,7 @@ h1 {
 
 #left-border-highlighter {
     border-left : 4px solid #009DAE;
+    padding-left : 1%;
 }
 
 .experience-item {
