@@ -67,21 +67,10 @@ h1 {
 }
 
 .link-button:hover {
-    color : grey;
+    color : rgb(160, 160, 160);
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.dream-big {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.text-justify {
+.text-justify-high {
     width: 90%;
     text-align: justify;
 }
@@ -101,9 +90,8 @@ h1 {
     text-decoration: none;
 }
 .no-decor:hover {
-    color : grey;
+    color : rgb(189, 189, 189);
 }
-
 
 #left-border-highlighter {
     border-left : 4px solid #009DAE;
@@ -112,13 +100,21 @@ h1 {
 .experience-item {
     width: 80%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     padding-left: 5%;
     box-shadow: 5px 5px 20px grey;
     border-radius: 20px;
 }
 
 .technical-skills-item {
+    text-align: center;
+    width: 120px;
+    margin: 1%;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.professional-skills-item {
     text-align: center;
     width: 120px;
     margin: 1%;
